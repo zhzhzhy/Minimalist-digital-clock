@@ -1,0 +1,12 @@
+.display{
+  background-color: black;
+
+}
+
+#timer{
+  font-family: fantasy;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  margin: auto;
+}
