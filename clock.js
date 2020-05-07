@@ -1,4 +1,4 @@
 function update{
-  var dateobj = getDate(datestring);
+  document.getElementByid(timer) = getDate(datestring);
 }
 setInterval(update,1000);
