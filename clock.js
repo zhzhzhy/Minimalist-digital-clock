@@ -16,7 +16,7 @@ function update(){
 
 	//The result to be printing(If the Month,Date,Hour,Minutes,Seconds are less than 10,add additional "0" String)
 	var Realtime = (hour<10?"0"+hour:hour) + ":" + (minutes<10?"0"+minutes:minutes) + ":" + (seconds<10?"0"+seconds:seconds);  
-	var ToDay = year + " " + MonthName[month] + " " + (day>10?day:"0"+day);
+	var ToDay = year + " " + MonthName[month] + " " + (day>=10?day:"0"+day);
 
 	document.getElementById("timer").innerHTML = ToDay + "<br>" + Realtime + "<br>" + WeekName[week]; //Print the result
 }
