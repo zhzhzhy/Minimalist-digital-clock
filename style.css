@@ -15,5 +15,6 @@ body{
   text-align: center;
   font-family: fantasy;
   color: white;
-  font-size: 50px;
+  font-size: 100px;
+  margin: 0;
 }
