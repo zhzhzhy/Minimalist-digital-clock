@@ -1,4 +1,5 @@
-# Minimalist clock
+# Minimalist digital clock
+
 ----
 
 *version 1.0*
