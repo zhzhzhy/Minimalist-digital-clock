@@ -1,12 +1,19 @@
-.display{
+body{
   background-color: black;
+  height: 100%;
+  width: 100%;
+}
 
+.display{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
 }
 
 #timer{
+  text-align: center;
   font-family: fantasy;
   color: white;
-  font-size: 30px;
-  position: absolute;
-  margin: auto;
+  font-size: 50px;
 }
