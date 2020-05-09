@@ -1,5 +1,5 @@
-function update{
-	d = new Date();
-	document.getElementById(timer) = d.getDate();
+function update(){
+	dateobj = new Date();
+	document.getElementById(timer) = dateobj.getDate();
 }
 setInterval(update,1000);
